@@ -40,18 +40,19 @@ main h1 {
 
 main {
     background-color: rgba(105, 105, 105, 0.514);
+    font-size: 20px;
     padding: 10px 20px;
     border-radius: 20px;
     padding-top: 50px;
 }
 
 footer ul img {
-    height: 20px;
     margin-right: 10px;
     padding: 5px 5px;
     position: relative;
     top: 10px;
     left: 10px;
+    height: 20px;
 }
 
 footer a {
