@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(143, 188, 186);
+    
+    
+    
+}
+body>*{
+    max-width: 800px;
+    width: 80%;
+    margin:  auto;
+}
+nav li{
+    
+    list-style-type: none;
+}
+nav a{
+    color:white;
+    font-size:20px;
+}
+nav ul{
+    padding:0;
+    display:flex;
+    justify-content:space-evenly;
+}
+h1{
+    color:rgb(218,112,144);
+    text-align:center;
+}
+img{
+    height:150px;
+    border-radius:50%;
+}
+main h1{
+text-align: center;
+color: black;
+}
+main{
+    background-color: rgba(105, 105, 105, 0.514);
+    padding:10px 20px;
+    border-radius: 20px;
+    padding-top:50px;
+    }
