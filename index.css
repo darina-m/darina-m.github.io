@@ -1,20 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather|Poppins|Squada+One&display=swap');
 body {
-    background-color: rgb(143, 188, 186);
+    background-color: #a29994;
+    margin: 0;
+    padding: 0;
 }
 
-body>* {
-    max-width: 800px;
-    width: 80%;
-    margin: auto;
+header {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #737278;
+    align-items: center;
+    position: sticky;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 5px black;
+    font-family: 'Poppins', sans-serif;
 }
 
-nav li {
+header span {
+    margin-left: 12px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header li {
     list-style-type: none;
 }
 
-nav a {
-    color: white;
-    font-size: 40px;
+header a {
+    width: 85px;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    padding: 15px;
+    height: auto;
+    margin: 0;
 }
 
 nav ul {
@@ -23,10 +44,11 @@ nav ul {
     justify-content: space-evenly;
 }
 
-h1 {
-    color: rgb(218, 112, 144);
-    text-align: center;
-    font-size: 45px;
+header a:hover {
+    color: white;
+    font-size: 23px;
+    background-color: #797c81;
+    font-family: 'Merriweather', serif;
 }
 
 img {
@@ -34,33 +56,55 @@ img {
     border-radius: 50%;
 }
 
-main h1 {
+aside {
+    height: 100px;
     text-align: center;
-    color: black;
+    margin: 20px;
+    font-family: 'Squada One', cursive;
+}
+
+aside span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+aside div {
+    font-size: 25px;
+    margin-top: 40px;
 }
 
 main {
-    background-color: rgba(105, 105, 105, 0.514);
+    background-color: #a6a7a9;
     font-size: 20px;
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 3px;
     padding-top: 50px;
+    margin: 100px;
+    box-shadow: 0 0 5px black;
+    font-family: 'Lato', sans-serif;
 }
 
-footer ul img {
-    margin-right: 10px;
-    padding: 5px 5px;
-    position: relative;
-    top: 10px;
-    left: 10px;
-    height: 20px;
+.floatimg {
+    float: left;
+    margin: 10px;
+}
+
+footer {
+    flex-basis: 100%;
+    order: 4;
+    height: 250px;
+    background-color: #737278;
+    padding: 20px 20px 0 20px;
 }
 
 footer a {
-    font-size: 18px;
-    color: orangered;
+    display: flex;
+    text-decoration: none;
+    color: black;
 }
 
-footer li {
-    list-style-type: none;
+#linkes {
+    padding: 100px;
+    font-size: 40px;
+    color: black;
 }
