@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <span>Darina-M</span>
+        <span id="begin">Darina-M</span>
         <nav>
             <ul>
                 <li><a href="#contacts">Contacts</a></li>
@@ -21,7 +21,7 @@
         </nav>
 
     </header>
-    <aside><span>Welcome to my home page</span>
+    <aside><span id="begin">Welcome to my home page</span>
         <div> <strong>I am looking forward to work with you!</strong></div>
     </aside>
 
@@ -32,39 +32,63 @@
             <h1>A little about me:</h1>Hello , my name is Darina and I'm 16 years old. <strong>I am front-end developer. </strong> My homeland is Kyrgyzstan. I know 2 languages : Russian and English (fluently write and speech) . I am responsible and reliable
             person.
         </p>
+        <div class="forma">
+            <form action="">
+                <h2 id="forcont">Form contact</h2>
+                <label for="input_firstname" class="label_firstname">
+          <span>name:</span>
+          <input type="text" id="input_firstname" name="input_firstname">
+        </label>
+                <label for="input_lastname" class="label_lastname">
+          <span>lastname:</span>
+          <input type="text" id="input_lastname" name="input_lastname">
+        </label>
+                <label for="input_address" class="label_address">
+          <span>email address:</span>
+          <input type="email" id="input_address" name="input_address">
+        </label>
+                <label for="message_title" class="label_title">
+          <span>message title:</span>
+          <input type="text" id="message_title">
+        </label>
+                <label for="message_body" class="label_message">
+          <span>message:</span>
+          <textarea name="message_body" id="message_body" cols="30" rows="10"></textarea>
+        </label>
+                <a href class="btn_link">submit</a>
+            </form>
+        </div>
+        <div id="about">
+            <p>
+                <h2>
+                    Main skills:
+                </h2>
+                <ul>
+                    <li>HTML - Hyper Text Markup Language</li>
+                    <li>CSS - Cascading Style Sheets</li>
+                    <li>JS - JavaScript</li>
+                </ul>
+            </p>
+            <p>
+                <h2>Education:</h2>
+                <ul>
+                    <li>IT academy</li>
+                    <li>Something else</li>
+                    <li>Something else</li>
+                    <li>Something else</li>
+                </ul>
 
+            </p>
+            <p>
+                <h2>Work background:</h2>
+                <ul>
+                    <li>Example-1</li>
+                    <li>Example-2</li>
+                    <li>Example-3</li>
 
-
-        <p>
-            <h2>
-                Main skills:
-            </h2>
-            <ul>
-                <li>HTML - Hyper Text Markup Language</li>
-                <li>CSS - Cascading Style Sheets</li>
-                <li>JS - JavaScript</li>
-            </ul>
-        </p>
-        <p>
-            <h2>Education:</h2>
-            <ul>
-                <li>IT academy</li>
-                <li>Something else</li>
-                <li>Something else</li>
-                <li>Something else</li>
-            </ul>
-
-        </p>
-        <p>
-            <h2>Work background:</h2>
-            <ul>
-                <li>Example-1</li>
-                <li>Example-2</li>
-                <li>Example-3</li>
-
-            </ul>
-        </p>
-
+                </ul>
+            </p>
+        </div>
     </main>
     <footer>
         <section id="contacts">
