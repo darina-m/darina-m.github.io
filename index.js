@@ -1,6 +1,6 @@
 let sections = document.querySelectorAll("section");
 
-let links = document.querySelectorAll("a");
+let links = document.querySelectorAll("nav a");
 
 for (let index = 0; index < links.length; index++) {
     const element = links[index];
