@@ -105,6 +105,12 @@ footer a {
 
 #linkes {
     padding: 100px;
-    font-size: 40px;
+    margin-left: 10px;
+    font-size: 50px;
     color: black;
+}
+
+#contacts {
+    display: flex;
+    justify-content: space-between;
 }
